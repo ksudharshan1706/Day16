@@ -1,52 +1,52 @@
-const h1Ele = document.createElement('h1');
+const headingTag = document.createElement('h1');
 
 document.body.style.textAlign = 'center';
 
-document.body.append(h1Ele);
+document.body.append(headingTag);
 var countDown = 10;
 setTimeout(() => {
-    h1Ele.innerText = '';
-    h1Ele.innerText = countDown;
+    headingTag.innerText = '';
+    headingTag.innerText = countDown;
     countDown--;
     setTimeout(() => {
-        h1Ele.innerText = '';
-        h1Ele.innerText = countDown;
+        headingTag.innerText = '';
+        headingTag.innerText = countDown;
         countDown--;
         setTimeout(() => {
-            h1Ele.innerText = '';
-            h1Ele.innerText = countDown;
+            headingTag.innerText = '';
+            headingTag.innerText = countDown;
             countDown--;
             setTimeout(() => {
-                h1Ele.innerText = '';
-                h1Ele.innerText = countDown;
+                headingTag.innerText = '';
+                headingTag.innerText = countDown;
                 countDown--;
                     setTimeout(() => {
-                    h1Ele.innerText = '';
-                    h1Ele.innerText = countDown;
+                    headingTag.innerText = '';
+                    headingTag.innerText = countDown;
                     countDown--;
                         setTimeout(() => {
-                        h1Ele.innerText = '';
-                        h1Ele.innerText = countDown;
+                        headingTag.innerText = '';
+                        headingTag.innerText = countDown;
                         countDown--;
                         setTimeout(() => {
-                            h1Ele.innerText = '';
-                            h1Ele.innerText = countDown;
+                            headingTag.innerText = '';
+                            headingTag.innerText = countDown;
                             countDown--;
                             setTimeout(() => {
-                            h1Ele.innerText = '';
-                            h1Ele.innerText = countDown;
+                            headingTag.innerText = '';
+                            headingTag.innerText = countDown;
                             countDown--;
                             setTimeout(() => {
-                                h1Ele.innerText = '';
-                                h1Ele.innerText = countDown;
+                                headingTag.innerText = '';
+                                headingTag.innerText = countDown;
                                 countDown--;
                                 setTimeout(() => {
-                                    h1Ele.innerText = '';
-                                    h1Ele.innerText = countDown;
+                                    headingTag.innerText = '';
+                                    headingTag.innerText = countDown;
                                     countDown--;
                                     setTimeout(() => {
-                                    h1Ele.innerText = '';
-                                    h1Ele.innerText = 'Happy Independence Day';
+                                    headingTag.innerText = '';
+                                    headingTag.innerText = 'Happy Independence Day';
                                     countDown--;
                                 }, 1000);
                             }, 1000);
